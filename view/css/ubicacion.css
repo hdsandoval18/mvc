@@ -1,0 +1,65 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+/* MAPA */
+.titulo{
+    text-align: center;
+    justify-content: center;
+   
+}
+h1{
+    font-family: 'Bangers', cursive;
+    font-size: 65px;
+    color: #1f4f73;
+}
+iframe{
+    display: flex;
+    width: 70%;
+    height: 500px;
+    padding: 35px;
+    
+}
+.mapa{
+    text-align: -webkit-center;
+}
+.adicional{
+    text-align: center;
+}
+hr{
+    width: 100%;
+}
+
+.img-icon{
+    margin: 0 10px 0 0;
+    
+}
+
+/*RESPONSIVE CONTENIDO*/
+@media (max-width: 940px){
+    .titulo{
+      height: 80px;
+    }
+    
+}
+@media (max-width: 415px){
+  .titulo{
+    height: 80px;
+    margin: 0 ;
+  }
+
+  .titulo h1{
+    font-family: 'Bangers', cursive;
+    font-size: 35px;
+    color: #1f4f73;
+  }
+
+  .contacto{
+      margin: 0;
+      text-align: center;
+  }
+  
+}
